@@ -1,0 +1,11 @@
+framework module WWRippleEffect {
+  umbrella header "WWRippleEffect.h"
+
+  export *
+  module * { export * }
+}
+
+module WWRippleEffect.Swift {
+    header "WWRippleEffect-Swift.h"
+    requires objc
+}
